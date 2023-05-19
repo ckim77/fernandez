@@ -1,23 +1,23 @@
 function newImage(src, left, bottom) {
-let image = document.createElement('img');
-image.src = src;
-image.style.position = 'fixed';
-image.style.left = left;
-image.style.bottom = bottom;
-document.body.append(image);
+    let image = document.createElement('img');
+    image.src = src;
+    image.style.position = 'fixed';
+    image.style.left = left;
+    image.style.bottom = bottom;
+    document.body.append(image);
 }
 
 function newItem(src, left, bottom) {
-let item = document.createElement('img');
-item.src = src;
-item.style.position = 'fixed';
-item.style.left = left;
-item.style.bottom = bottom;
-document.body.append(item);
+    let item = document.createElement('img');
+    item.src = src;
+    item.style.position = 'fixed';
+    item.style.left = left;
+    item.style.bottom = bottom;
+    document.body.append(item);
 
-item.addEventListener('dblclick', function() {
-    item.remove();
-});
+    item.addEventListener('dblclick', function() {
+        item.remove();
+    });
 }
 
 newItem('assets/sword.png', '500px', '405px')
