@@ -20,6 +20,9 @@ function newItem(src, left, bottom) {
     });
 }
 
+// GRADING COMMENTS: Good work! Code looks good, but please refer to the changes from line 1-20.  Please tab all the code within a function to make it clear that the code is within
+// the function.
+
 newItem('assets/sword.png', '500px', '405px')
 newItem('assets/shield.png', '165px', '185px')
 newItem('assets/staff.png', '600px', '100px')
